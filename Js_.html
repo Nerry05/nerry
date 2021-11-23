@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .active{
+            color:red;
+        }
+        #active{
+            color:green;
+        }
+
+        .qorud{
+            background-color: black;
+            color:blue;
+        }
+        .qorud #active{
+            color: yellow;
+        }
+    </style>
+</head>
+
+
+<body>
+    <ul>
+        <li class="active">HTML</li>
+        <li id="active">css</li>
+        <li class="active">javascript</li>
+    </ul>
+
+    <script>
+        //빨 초 보
+
+        var lis=document.getElementsByClassName("active")[1];
+        var li=document.getElementById("active").style.color = "white"
+    </script>
+
+<input type="button" value="다크모드" onclick="document.body.className='qorud';"/>
+
+</body>
+</html>

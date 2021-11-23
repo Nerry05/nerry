@@ -10,28 +10,56 @@
         }
         .young {
             background-color: brown;
-            margin: 3px;
             flex: 1;
+            float:left;
+            width: 200px;
+            height: 200px;
+    
         }
         .large {
-            flex: 2;
+            flex: 0;
         }
         .y-large {
             flex: 3;
         }
+        
+        .box_ div:first-child{
+            background-color: green;
+            flex-grow: 1;
+            flex-shrink: 1;
+            
+        }
+        .box_ div:nth-child(2){
+            flex-grow: 2;
+            background-color: slateblue;
+            flex-shrink: 2;
+        }
+        .box_ div:last-child{
+            flex-grow: 1;
+            background-color: saddlebrown;
+            flex-shrink: 1;
+        }
+       
+        .container {
+            display: flex;
+            /* flex-direction: column; */
+            flex-wrap: wrap;
+            /* justify-content: center; */
+            /* align-items: center; */
+            height: 100vh;
+            background: lightgray;
+        }
+    
     </style>
 
     
 </head>
 
 <body>
-    <section>
-        <div class="young large">young_1</div>
+    <div class="box_ container">
+        <div class="young">young_1</div>
         <div class="young y-large">young_2</div>
         <div class="young">young_3</div>
-        <div class="young">young_4</div>
-        <div class="young">young_5</div>
-        <div class="young">young_6</div>
-    </section>
+    </div>
 </body>
 </html>

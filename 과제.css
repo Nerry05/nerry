@@ -1,0 +1,115 @@
+   @import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+
+ * {
+ font-family: 'Nanum Gothic Coding', monospace;
+
+}
+body{
+    margin: 0px;
+}
+
+.nanumgothiccoding{
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 28px;
+    font-weight: medium;
+    margin: 40px;
+    
+}
+
+.alslqjxms{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+#dlqgkr{
+    font-size: 12px;
+    color: grey;
+    margin: 12px;
+    
+}
+
+#rmsid{
+    font-size: 13px;
+    color: grey;
+    width: 150px;
+    height: 33px;
+    margin: -76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.MV{
+    width: 150vw;
+    height: 150vw;
+  }
+.VB{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 550px;
+    overflow: hidden;
+  }
+
+.wnddkd{
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 27px;
+    
+}
+
+.wnddkd p{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.gkrtmqwk{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.box_container{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.young{
+    background-color: rgb(49, 67, 164);
+    width: 350px;
+    height: 200px;
+    color: white;
+}
+.young-{
+    background-color: rgb(4, 18, 81);
+    width: 350px;
+    height: 200px;
+    color: white;
+}
+
+.test{
+    margin: 20px;
+}
