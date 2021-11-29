@@ -16,7 +16,7 @@ body{
     
 }
 
-.alslqjxms{
+.alslqjxms a{
     color: rgb(0, 0, 0);
     font-size: 14px;
     font-family: 'Nanum Gothic Coding', monospace;
@@ -24,6 +24,12 @@ body{
     margin: 20px;
 
 }
+
+.alslqjxms a:hover {
+    color: blue;
+    background-color: white;
+    border: 0px;
+} 
 
 .title{
     display: flex;
@@ -112,4 +118,10 @@ body{
 
 .test{
     margin: 20px;
+}
+.MI{
+    color: white;
+    font-size: 14px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-decoration: none;
 }
