@@ -41,17 +41,36 @@
     <p class="gkrtmqwk">사단법인 교육실험실21의 거꾸로캠퍼스는 21세기 학습자를 위한 미래 역량 중심 교육을 제공하는 실험 학교입니다. <br>미래 사회에서 주체적인 삶을 살며 협력을 통해
         긍정적인 변화를 이끄는 인재를 양성합니다</p>
 
-
+<button onclick="toggle()">색변환</button>
     <div class="box_container">
-        <div class="young">
+        <div id="young">
             <div class="test"><h4>배움의 원칙</h4> 거꾸로캠퍼스가 실현하는 <br>21세기 배움의 원칙 아홉 가지</br> <a href="https://gschool.kr/principle" class="MI"><br><br><br>자세히보기<i class="fas fa-long-arrow-alt-right"></i></a></div>
         </div>
-        <div class="young-">
+        <div id="young-">
             <div class="test"><h4>교육과정</h4> 거꾸로캠퍼스의 교육 과정과 <br>교육 프로그램에 대한 안내</br> <a href="https://gschool.kr/school_life" class="MI"><br><br><br>자세히보기<i class="fas fa-long-arrow-alt-right"></i></a></div>
         </div>
-        <div class="young">
+        <div id="_young">
             <div class="test"><h4>학교생활</h4> 거꾸로캠퍼스를 만들어가는 <br>학생과 교사들의 이야기</br> <a href="https://gschool.kr/school_life" class="MI"><br><br><br>자세히보기<i class="fas fa-long-arrow-alt-right"></i></a></div>
         </div>
     </div>
+    <form action="document.write">
+        <input type="button" value="눌러보아라" onclick="dpzh()">
+      </form>
+
+    <script>
+         var element =  document.getElementById('young');
+         var element3 =  document.getElementById('_young');
+        var element2 =  document.getElementById('young-');
+       
+
+        function toggle() {
+            element.classList.toggle('young--');
+            element2.classList.toggle('young--');
+            element3.classList.toggle('young--');
+            
+
+        }
+    </script>
+
 </body>
 </html>
