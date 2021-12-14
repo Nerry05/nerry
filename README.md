@@ -8,7 +8,7 @@
 
 <div align="center">
 
-안녕 내 포폴이야
+네리 개인 포폴
 
 </div>
 
