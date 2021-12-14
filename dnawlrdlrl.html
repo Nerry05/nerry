@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .box {
+        width: 100px;
+        height: 100px;
+        background:url('./스크린샷\ 2021-12-08\ 오전\ 11.42.31.png') center center / 100% no-repeat;
+        animation: box 0.3s linear infinite both;
+    }
+
+
+
+    @keyframes box_ani {
+        0% {
+            transform: translate(0);
+        }
+
+        20% {
+            transform: translate(-2px, 2px);
+        }
+
+        40% {
+            transform: translate(-2px, -2px);
+        }
+
+        60% {transform: translate(2px, 2px);
+        }
+
+        80% {transform: translate(2px, -2px);
+        }
+
+        100% {transform: translate(0);
+        }
+    }
+</style>
+
+
+<body>
+    <div class="box"></div>
+</body>
+</html>

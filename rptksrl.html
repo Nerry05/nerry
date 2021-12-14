@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .ilbuni {
+            position: absolute;
+            margin-top: 30rem;
+            width: 70px;
+            margin-left: 640px;
+        }
+
+        .value {
+            margin-top: 8rem;
+            font-size: 7rem;
+            font-weight: 100;
+            text-align: center;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <img class="ilbuni" src="스크린샷 2021-12-08 오전 11.42.31.png" alt="강화">
+    <div class="value">requestAnimationFrame</div>
+    
+    <script>
+        const ilbuni = document.querySelector('.ilbuni');
+        const value = document.querySelector('.value');
+        let yPos = 0;
+        let rafId;
+
+        function render() {
+            value.innerHTML = yPos;
+            ilbuni.style.transform = `translateY(${-yPos}px)`;
+            yPos += 1;
+
+            rafId = requestAnimationFrame(render);
+
+            if (yPos > 600) {
+                cancelAnimationFrame(rafId);
+            }
+        }
+
+        render();
+
+        window.addEventListener('click', () => {
+            cancelAnimationFrame(rafId);
+        });
+        </script> 
+</body>
+</html>

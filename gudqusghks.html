@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <form action="document.write">
+          <input type="button" value="여길 눌러주세요(더하기)" onclick="calcSum()">
+        </form>
+
+        <from action="document.write">
+          <input type="button" value="여길 눌러주세요(곱하기)" onclick="_multiple()">
+        </from>
+  
+       <script>
+        function calcSum() {
+            var x = prompt("얼마까지 더할까요?")
+
+            var inputNumber = parseInt(x)
+
+            var sum = 0
+
+              for(let i = 1; i <= inputNumber; i++) {
+                  sum += i;
+                // console.log(i, test2.valueOf())
+              }
+              document.write("1부터 " + inputNumber + "까지 더하면 " + sum);
+          }
+          
+        function _multiple() {
+          var sum = 1;
+
+          var x = prompt("얼마까지 곱할까요?")
+        }
+        // document.write("1부터 " + inputNumber + "까지 곱하면 " + sum);
+        
+        </script>
+    </body>
+</html>
